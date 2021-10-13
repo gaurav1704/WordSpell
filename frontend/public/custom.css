@@ -1,0 +1,187 @@
+.score-section {
+    background: rgb(33,44,129);
+    background: radial-gradient(circle, rgb(15, 21, 66) 0%, rgba(42,40,40,1) 100%);
+    
+    /* background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); */
+    
+    /* background: rgb(147,160,255);
+    background: radial-gradient(circle, rgb(58, 62, 105) 0%, rgb(44, 97, 44) 100%); */
+
+    height: 90vh;
+}
+
+.nav-tabs{
+    height: 42px;
+}
+
+.nav-item-3{
+    width: 33.3%;
+    text-align: center;
+}
+
+.nav-item-2{
+    width: 50%;
+    text-align: center;
+}
+
+.nav-link.active{
+    background-color: rgb(66, 195, 34)  !important;
+    color: white !important;
+}
+
+.option-area .nav-link.active{
+    background-color: rgb(66, 195, 34)  !important;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.nav-link:hover{
+    color: black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.chat {
+    display: grid;
+    vertical-align: middle;
+    grid-template-rows: minmax(75%, 90%) min-content;
+    height: calc(100% - 42px);
+}
+
+.chat textarea {
+    border-radius: 10px;
+    text-align: left;
+    resize: none;
+    word-wrap:break-word;
+    bottom: 10px;
+ }
+
+.chat textarea:focus {
+    outline: none;
+}
+
+.chat .input-area {
+   display: grid;
+   grid-template-columns: 10fr 1fr;
+   padding: 5px;
+}
+
+.chat .message-area {
+    min-height: 75%;
+    max-height: 95%;
+    padding: 5px;
+    /* overflow-y: hidden; */
+    overflow-y: auto;
+}
+
+.chat .input-area .send-button {
+    width: 30px;
+    height: 30px;
+}
+
+.chat .message-area .card {
+    color: black;
+    padding: 0px;
+    max-width: 80%;
+    min-width: 30%;
+    margin: 0px;
+    border: solid black 1pt;
+    width: auto;
+}
+
+.chat .message-area .message{
+    
+    margin: 5px;
+}
+
+.chat .message-area .time {
+    max-width: 40%;
+}
+
+.chat .message-area .card .card-header {
+    background-color: lawngreen;
+    /* background-color: darkorchid;
+    background-color:lightcoral;
+    background-color: darkgoldenrod;
+    background-color:fuchsia; */
+    height: 15px;
+    font-size: 10px;
+    color: black;
+    font-weight: bold;
+    padding: 0px;
+}
+
+.chat .message-area .card .card-body{
+    font-size: 14px;
+    color: black;
+    padding: 5px;
+}
+.chat .message-area .card .card-footer{
+    height: 7px;
+    font-size: 7px;
+    color: black;
+    padding: 0px;
+}
+
+/* input{
+    height: 20px;
+} */
+.room-input{
+    height: 80%;
+    padding: 15px;
+    margin: auto;
+    overflow: auto;
+}
+.input-group{
+    padding: 8px;
+}
+.btn-center{
+    margin: 20px;
+}
+
+
+.game {
+    padding: 0px;
+    background: rgb(33,44,129);
+    background: radial-gradient(circle, rgba(33,44,129,1) 0%, rgba(42,40,40,1) 100%);
+
+    /* background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); */
+    
+    /* background: rgb(147,160,255);
+    background: radial-gradient(circle, rgba(147,160,255,1) 0%, rgba(100,254,101,1) 100%); */
+    
+}
+
+.room-options{
+    width: 100%;
+    height: 100%;
+    background: rgb(33,44,129);
+    background: radial-gradient(circle, rgba(33,44,129,1) 0%, rgba(42,40,40,1) 100%);
+    padding: 10% 30%;
+}
+.room-options .option-area{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    /* overflow: auto; */
+    height: 80% ;
+}
+
+@media screen and (min-width: 768px) {
+    .game{
+        min-height: 90vh;
+        display: flex;
+    }
+}
+@media screen and (max-width: 768px) {
+    .game{
+        min-height: auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+.game input {
+    text-align: center;
+    opacity: 0.65;
+}
+
