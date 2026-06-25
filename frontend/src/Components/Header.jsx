@@ -2,13 +2,8 @@ import React from 'react'
 
 export default function Header() {
     return (
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style={{height:"10vh"}}>
-            <div class="container-fluid" style={{position:'relative'}}>
-                <a class="navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            </div>
+        <nav className="navbar navbar-dark bg-dark px-3" style={{height:"7vh", minHeight:"50px"}}>
+            <span className="navbar-brand mb-0 h1 fs-4">WordSpell</span>
         </nav>
     )
 }

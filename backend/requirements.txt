@@ -1,3 +1,4 @@
-pip install Flask-SocketIO
-pip install flask-wrappers
-pip install Flask
+Flask-SocketIO
+flask-wrappers
+Flask
+redis

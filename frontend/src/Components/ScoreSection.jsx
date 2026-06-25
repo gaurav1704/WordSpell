@@ -11,7 +11,7 @@ export default function ScoreSection(props) {
         switch(selected){
             case "score": return (<ScoreBoard connection={props.connection} data={props.data}></ScoreBoard>)
             case "chat": return (<Chat connection={props.connection} data={props.data}></Chat>)
-            case "words": return (<InfromationSection></InfromationSection>)
+            case "words": return (<InfromationSection connection={props.connection} data={props.data}></InfromationSection>)
         }
     }
 
