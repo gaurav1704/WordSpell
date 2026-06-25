@@ -1,4 +1,4 @@
-# WordSpell
+# wordspell-online
 
 A real-time multiplayer word game built with React, Flask-SocketIO, and Redis. Players take turns placing letters on a shared grid to form words, competing for the highest score.
 
